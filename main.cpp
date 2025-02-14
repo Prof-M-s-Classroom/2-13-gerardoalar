@@ -81,6 +81,7 @@ public:
         while (temp->next != NULL) {
             temp=temp->next;
         }
+        temp = NULL;
         delete temp;
         length--;
     }
